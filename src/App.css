@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.task-manager {
+  margin-top: 20px;
+}
+.custom-button {
+  background-color: #4CAF50; /* Зеленый цвет фона */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #45a049; /* Темно-зеленый цвет фона при наведении */
+}
+.add-task-button {
+  background-color: #4CAF50; /* Зеленый цвет фона */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #45a049; /* Темно-зеленый цвет фона при наведении */
+}
+
+/* Стили для кнопки "Delete" */
+.delete-button {
+  background-color: #ff6347; /* Красный цвет фона */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px; /* Добавляем небольшой отступ слева */
+}
+
+.delete-button:hover {
+  background-color: #ff4739; /* Темно-красный цвет фона при наведении */
+}
